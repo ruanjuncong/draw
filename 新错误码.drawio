@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1">
+  <diagram name="第 1 页" id="jhAAtDex1rplibt2X1cf">
+    <mxGraphModel dx="1826" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-5" edge="1" parent="1" source="aN1-UzK2C2dBzC1Ctel4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="aN1-UzK2C2dBzC1Ctel4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;系统错误码&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-35" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-6" edge="1" parent="1" source="aN1-UzK2C2dBzC1Ctel4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="aN1-UzK2C2dBzC1Ctel4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;平台错误&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="112" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-7" edge="1" parent="1" source="aN1-UzK2C2dBzC1Ctel4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="aN1-UzK2C2dBzC1Ctel4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;转换为标准信息&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="35" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-14" edge="1" parent="1" source="aN1-UzK2C2dBzC1Ctel4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="aN1-UzK2C2dBzC1Ctel4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;数据库&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="314" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;日志、进度信息&lt;/font&gt;" vertex="1">
+          <mxGeometry height="29" width="116" x="174" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;前端查询展示&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="47" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-15" edge="1" parent="1" source="aN1-UzK2C2dBzC1Ctel4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="aN1-UzK2C2dBzC1Ctel4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h3 id=&quot;_________mcetoc_1h42kse5j5&quot; style=&quot;-webkit-tap-highlight-color: transparent; padding: 0px; margin: 0px; box-sizing: border-box; word-break: break-all; color: rgb(65, 65, 65); text-align: start;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;替换提示信息及拼接解决方案&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="284" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;span style=&quot;color: rgb(226, 80, 65); font-family: sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[API][0500002]未查询到店铺信息&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="-16" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;span style=&quot;color: rgb(226, 80, 65); font-family: sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;[OUT][LXO.REQUEST_FAILURE.FAILNEEDRETRY]平台接口限流，请稍后重试&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="531" x="-204" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="aN1-UzK2C2dBzC1Ctel4-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;ul style=&quot;-webkit-tap-highlight-color: transparent; padding: 0px; margin: 0px; box-sizing: border-box; margin-block-start: 1em; margin-inline: 0px; color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;-webkit-tap-highlight-color: transparent; padding: 0px; margin: 0px; box-sizing: border-box;&quot;&gt;source：原信息&lt;/li&gt;&lt;li style=&quot;-webkit-tap-highlight-color: transparent; padding: 0px; margin: 0px; box-sizing: border-box;&quot;&gt;target：新信息，抹除 [API] [OUT] 等标识前缀并替换内容&lt;/li&gt;&lt;li style=&quot;-webkit-tap-highlight-color: transparent; padding: 0px; margin: 0px; box-sizing: border-box;&quot;&gt;solutionUrl：解决方案链接&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="95" width="475" x="455" y="347" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
