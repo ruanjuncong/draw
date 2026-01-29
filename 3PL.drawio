@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="第 1 页" id="jBGHp803DW1UrpBLaum4">
+    <mxGraphModel dx="1826" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;omsapi-admin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="434" width="100" x="-54" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-13" parent="pnMGMsj-vCB3vc4Zt420-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="45" y="95.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-20" parent="pnMGMsj-vCB3vc4Zt420-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="45" y="241" as="geometry" />
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;菠萝派&lt;/font&gt;" vertex="1">
+          <mxGeometry height="438" width="100" x="292" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-9" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="pnMGMsj-vCB3vc4Zt420-8" value="&lt;span style=&quot;-webkit-tap-highlight-color: transparent; padding: 0px; margin: 0px; box-sizing: border-box; font-weight: 700; color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; text-align: left; text-wrap-mode: wrap;&quot;&gt;taobao.logistics.address.search&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="348" y="259.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-10" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-8" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="pnMGMsj-vCB3vc4Zt420-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="348" y="291.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-12" connectable="0" parent="pnMGMsj-vCB3vc4Zt420-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;返回addressResult []&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3664" y="-1" as="geometry">
+            <mxPoint x="31" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1、调用查询卖家地址库&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="139" x="-186" y="209" as="geometry" />
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;2、获取批量contact_id&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;组装一组获取资源请求&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="206" x="-235" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;淘宝开放平台&lt;/font&gt;" vertex="1">
+          <mxGeometry height="429" width="100" x="682" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-8" parent="pnMGMsj-vCB3vc4Zt420-15" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="42" width="10" x="45" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-23" parent="pnMGMsj-vCB3vc4Zt420-15" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="29" width="10" x="43" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-17" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-13" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="pnMGMsj-vCB3vc4Zt420-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;淘宝批量转发接口（单个）&lt;/font&gt;">
+          <mxGeometry relative="1" width="80" x="-0.0015" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="373" y="376" as="sourcePoint" />
+            <mxPoint x="453" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-18" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="pnMGMsj-vCB3vc4Zt420-13" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;返回addressResult []&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="453" y="368" as="sourcePoint" />
+            <mxPoint x="373" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-21" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="pnMGMsj-vCB3vc4Zt420-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;淘宝批量转发接口（批量）&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="373" y="368" as="sourcePoint" />
+            <mxPoint x="453" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-22" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="pnMGMsj-vCB3vc4Zt420-23" value="&lt;span style=&quot;-webkit-tap-highlight-color: transparent; padding: 0px; margin: 0px; box-sizing: border-box; font-weight: 700; color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; text-align: left; text-wrap-mode: wrap;&quot;&gt;taobao.wlb.import.threepl.resource.get&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="373" y="368" as="sourcePoint" />
+            <mxPoint x="453" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-24" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-23" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="pnMGMsj-vCB3vc4Zt420-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ThreePlConsignResourceDto[]&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.0091" y="31" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="453" y="356" as="sourcePoint" />
+            <mxPoint x="373" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-25" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="pnMGMsj-vCB3vc4Zt420-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;List&amp;lt;ThreePlConsignResourceDto[]&amp;gt;&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="453" y="356" as="sourcePoint" />
+            <mxPoint x="373" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3、组装资源响应参数返回前端展示&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="206" x="-238" y="483" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
