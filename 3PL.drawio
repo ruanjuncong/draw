@@ -11,10 +11,13 @@
           <mxGeometry height="80" width="10" x="45" y="95.5" as="geometry" />
         </mxCell>
         <mxCell id="pnMGMsj-vCB3vc4Zt420-20" parent="pnMGMsj-vCB3vc4Zt420-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="80" width="10" x="45" y="241" as="geometry" />
+          <mxGeometry height="121" width="10" x="45" y="241" as="geometry" />
         </mxCell>
         <mxCell id="pnMGMsj-vCB3vc4Zt420-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;菠萝派&lt;/font&gt;" vertex="1">
           <mxGeometry height="438" width="100" x="292" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9LsPZZb659BN9tAoi1kV-1" parent="pnMGMsj-vCB3vc4Zt420-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="124" width="10" x="47" y="240" as="geometry" />
         </mxCell>
         <mxCell id="pnMGMsj-vCB3vc4Zt420-9" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="pnMGMsj-vCB3vc4Zt420-8" value="&lt;span style=&quot;-webkit-tap-highlight-color: transparent; padding: 0px; margin: 0px; box-sizing: border-box; font-weight: 700; color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; text-align: left; text-wrap-mode: wrap;&quot;&gt;taobao.logistics.address.search&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry">
@@ -59,26 +62,26 @@
             <mxPoint x="373" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pnMGMsj-vCB3vc4Zt420-21" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="pnMGMsj-vCB3vc4Zt420-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;淘宝批量转发接口（批量）&lt;/span&gt;">
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-21" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="9LsPZZb659BN9tAoi1kV-1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;淘宝批量转发接口（批量）&lt;/span&gt;">
           <mxGeometry relative="1" width="80" as="geometry">
             <mxPoint x="373" y="368" as="sourcePoint" />
             <mxPoint x="453" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pnMGMsj-vCB3vc4Zt420-22" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="pnMGMsj-vCB3vc4Zt420-23" value="&lt;span style=&quot;-webkit-tap-highlight-color: transparent; padding: 0px; margin: 0px; box-sizing: border-box; font-weight: 700; color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; text-align: left; text-wrap-mode: wrap;&quot;&gt;taobao.wlb.import.threepl.resource.get&lt;/span&gt;">
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-22" edge="1" parent="1" source="9LsPZZb659BN9tAoi1kV-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.9;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" target="pnMGMsj-vCB3vc4Zt420-23" value="&lt;span style=&quot;-webkit-tap-highlight-color: transparent; padding: 0px; margin: 0px; box-sizing: border-box; font-weight: 700; color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; text-align: left; text-wrap-mode: wrap;&quot;&gt;taobao.wlb.import.threepl.resource.get&lt;/span&gt;">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="373" y="368" as="sourcePoint" />
+            <mxPoint x="380" y="403" as="sourcePoint" />
             <mxPoint x="453" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pnMGMsj-vCB3vc4Zt420-24" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-23" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="pnMGMsj-vCB3vc4Zt420-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ThreePlConsignResourceDto[]&lt;/font&gt;">
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-24" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-23" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="9LsPZZb659BN9tAoi1kV-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ThreePlConsignResourceDto[]&lt;/font&gt;">
           <mxGeometry relative="1" x="-0.0091" y="31" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="453" y="356" as="sourcePoint" />
-            <mxPoint x="373" y="356" as="targetPoint" />
+            <mxPoint x="398" y="428" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pnMGMsj-vCB3vc4Zt420-25" edge="1" parent="1" source="pnMGMsj-vCB3vc4Zt420-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="pnMGMsj-vCB3vc4Zt420-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;List&amp;lt;ThreePlConsignResourceDto[]&amp;gt;&lt;/font&gt;">
+        <mxCell id="pnMGMsj-vCB3vc4Zt420-25" edge="1" parent="1" source="9LsPZZb659BN9tAoi1kV-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="pnMGMsj-vCB3vc4Zt420-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;List&amp;lt;ThreePlConsignResourceDto[]&amp;gt;&lt;/font&gt;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="453" y="356" as="sourcePoint" />
             <mxPoint x="373" y="356" as="targetPoint" />
@@ -86,6 +89,16 @@
         </mxCell>
         <mxCell id="pnMGMsj-vCB3vc4Zt420-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3、组装资源响应参数返回前端展示&lt;br&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="206" x="-238" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="9LsPZZb659BN9tAoi1kV-2" edge="1" parent="1" source="9LsPZZb659BN9tAoi1kV-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;循环调用&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427" y="466" />
+              <mxPoint x="427" y="486" />
+            </Array>
+            <mxPoint x="350" y="466" as="sourcePoint" />
+            <mxPoint x="350" y="486" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
