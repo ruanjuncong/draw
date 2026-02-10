@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="第 1 页" id="tnJtjqOtFRHff-6r1XjB">
+    <mxGraphModel dx="1826" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ccAQSmQnyzc1lGCLftcc-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;库存同步&lt;/font&gt;" vertex="1">
+          <mxGeometry height="316" width="100" x="146" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="ccAQSmQnyzc1lGCLftcc-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="ccAQSmQnyzc1lGCLftcc-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;二级数据触发，&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;状态改为99同步中&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-119" y="346" as="sourcePoint" />
+            <mxPoint x="453" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ccAQSmQnyzc1lGCLftcc-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="ccAQSmQnyzc1lGCLftcc-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;新的转换通知，&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;已存在数据更新状态为1待同步&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="472" y="405" as="sourcePoint" />
+            <mxPoint x="453" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ccAQSmQnyzc1lGCLftcc-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="ccAQSmQnyzc1lGCLftcc-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;库存同步完成，&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;二级数据（除了状态为1的）状态改为0&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-123" y="480" as="sourcePoint" />
+            <mxPoint x="415" y="521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
